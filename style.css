@@ -501,3 +501,23 @@ body{background:#fffdf6}.site-footer{background:#3D4936}.site-header.inst-header
 
 /* Logo-led rose primary replaces every legacy dark-green primary element. */
 :root{--teal-950:#9B4D67;--teal-900:#9B4D67;--teal-800:#AD6078;--teal-700:#C47D91;--ink:#492E38;--ink-soft:#75656B}.site-footer{background:#9B4D67}.site-header .inst-button-dark{background:#9B4D67}.site-header .inst-menu span{background:#9B4D67}.site-header .inst-links a.active{color:#9B4D67}.site-header .inst-dropdown-panel a:hover,.site-header .inst-dropdown-panel a.active{color:#9B4D67!important}.page-hero h1{color:#492E38}.page-hero p{color:#75656B}.btn-gold{background:#9B4D67;border-color:#9B4D67}.btn-gold:hover{background:#7D3B52;border-color:#7D3B52}.btn-outline{color:#9B4D67}.btn-outline:hover{background:#9B4D67;border-color:#9B4D67}.promo-banner,.workshop-highlight-media{background:#9B4D67}
+
+
+/* Spoken English test refinements */
+#topic-grid .feature-card { position:relative; overflow:hidden; }
+#topic-grid .feature-card::after {
+  content:"";
+  position:absolute; right:-28px; top:-28px; width:90px; height:90px;
+  border-radius:50%; background:rgba(219,125,150,.08);
+}
+.topic-button { margin-top:8px; }
+.test-result { background:#fffdf6; border-radius:14px; padding:30px 24px; }
+.test-solutions { text-align:left; margin-top:28px; border-top:1px solid #eadfca; padding-top:24px; }
+.test-solutions h3 { margin-bottom:18px; }
+.solution-item { padding:15px 0; border-bottom:1px solid #eadfca; color:#34402F; }
+.solution-item:last-child { border-bottom:0; }
+.solution-item p { margin:6px 0 0; font-size:.9rem; }
+.test-option:has(input:checked) { background:#fbf4ef; color:#492E38; }
+@media(max-width:760px){
+  .test-solutions { margin-top:22px; }
+}
